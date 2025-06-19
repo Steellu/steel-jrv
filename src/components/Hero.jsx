@@ -57,7 +57,7 @@ export default function Hero() {
 
         {/* Subtitle */}
         <p className={`text-xl md:text-2xl lg:text-3xl text-gray-600 mb-8 font-light transition-all duration-1000 delay-500 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-          Fundición de Precisión & Ingeniería Metalúrgica
+          Fundición de Precisión
         </p>
 
         {/* Description */}

@@ -99,8 +99,8 @@ export default function About() {
                 <h3 className="text-lg font-bold text-gray-800">Historia</h3>
               </div>
               <p className="text-gray-600 leading-relaxed text-sm">
-                Fundada en 1998 por los hermanos Rodríguez Vega, Steel JRV ha evolucionado 
-                hasta convertirse en una empresa de clase mundial.
+                Fundada en 1992 con un horno rotativo fabricando piezas en fierro nodular, fierro fundido y bronces.
+                En el año 2002 innovamos tecnologia con hornos de induccion, lo que nos permitio fundir aceros especiales.
               </p>
             </div>
           </div>
@@ -131,7 +131,7 @@ export default function About() {
               },
               { 
                 title: 'Sustentabilidad', 
-                desc: 'Responsabilidad ambiental y social',
+                desc: 'Compromiso con el medio ambiente y prácticas responsables',
                 icon: Leaf,
                 image: 'https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg'
               },
