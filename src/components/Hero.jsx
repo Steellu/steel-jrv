@@ -20,7 +20,7 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
         <video
           ref={videoRef}
-          className="w-full h-full object-cover opacity-80"
+          className="w-full h-full object-cover opacity-100"
           autoPlay
           muted
           loop
