@@ -34,10 +34,10 @@ export default function About() {
         {/* Section Header */}
         <div className={`text-center mb-16 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <h2 className="text-4xl md:text-6xl font-bold mb-6 text-gray-800">
-            <span className="gradient-text">Acerca de</span> Steel JRV
+            <span className="gradient-text">Acerca de</span> Nosotros
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Forjando el futuro de la industria metalúrgica con innovación, precisión y excelencia desde 1998
+            Forjando el futuro de la industria metalúrgica con innovación, precisión y excelencia desde 1992
           </p>
         </div>
 

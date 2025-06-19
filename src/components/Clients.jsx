@@ -23,16 +23,16 @@ export default function Clients() {
 
   // Logos de empresas (usando SVGs simples como placeholder)
   const clients = [
-    { name: 'Automotive Corp', logo: 'AC' },
-    { name: 'Aerospace Industries', logo: 'AI' },
-    { name: 'Marine Solutions', logo: 'MS' },
-    { name: 'Heavy Machinery', logo: 'HM' },
-    { name: 'Petrochem Group', logo: 'PG' },
-    { name: 'Industrial Tech', logo: 'IT' },
-    { name: 'Metal Works', logo: 'MW' },
-    { name: 'Precision Parts', logo: 'PP' },
-    { name: 'Advanced Materials', logo: 'AM' },
-    { name: 'Engineering Solutions', logo: 'ES' },
+    { name: 'FUCSA', src: './LOGO-FUCSA.png' },
+    { name: 'FUCSA', src: './LOGO-FUCSA.png' },
+    { name: 'FUCSA', src: './LOGO-FUCSA.png' },
+    { name: 'FUCSA', src: './LOGO-FUCSA.png' },
+    { name: 'FUCSA', src: './LOGO-FUCSA.png' },
+    { name: 'FUCSA', src: './LOGO-FUCSA.png' },
+    { name: 'FUCSA', src: './LOGO-FUCSA.png' },
+    { name: 'FUCSA', src: './LOGO-FUCSA.png' },
+    { name: 'FUCSA', src: './LOGO-FUCSA.png' },
+    { name: 'FUCSA', src: './LOGO-FUCSA.png' },
   ];
 
   return (
@@ -59,7 +59,7 @@ export default function Clients() {
               >
                 <div className="text-center">
                   <div className="w-16 h-16 bg-gradient-to-br from-steel-blue to-steel-orange rounded-xl flex items-center justify-center mb-2 mx-auto">
-                    <span className="text-white font-bold text-lg">{client.logo}</span>
+                    <span className="text-white font-bold text-lg"><img src={client.src}/></span>
                   </div>
                   <p className="text-xs text-gray-600 text-center">{client.name}</p>
                 </div>
@@ -76,7 +76,7 @@ export default function Clients() {
               >
                 <div className="text-center">
                   <div className="w-16 h-16 bg-gradient-to-br from-steel-orange to-steel-red rounded-xl flex items-center justify-center mb-2 mx-auto">
-                    <span className="text-white font-bold text-lg">{client.logo}</span>
+                    <span className="text-white font-bold text-lg"><img src={client.src}/></span>
                   </div>
                   <p className="text-xs text-gray-600 text-center">{client.name}</p>
                 </div>
