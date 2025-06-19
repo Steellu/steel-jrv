@@ -34,7 +34,7 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-6xl mx-auto">
-        <br /><br />
+        {/* <br /><br /> */}
         {/* Company Logo */}
         <div className={`mb-0 transition-all duration-1000 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'}`}>
           <div className="flex justify-center mb-2 m-t-6">
@@ -56,9 +56,9 @@ export default function Hero() {
         </div>
 
         {/* Subtitle */}
-        <p className={`text-xl md:text-2xl lg:text-3xl text-gray-600 mb-8 font-light transition-all duration-1000 delay-500 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+        {/* <p className={`text-xl md:text-2xl lg:text-3xl text-gray-600 mb-8 font-light transition-all duration-1000 delay-500 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           Fundición de Precisión
-        </p>
+        </p> */}
 
         {/* Description */}
         <p className={`text-lg md:text-xl text-gray-500 mb-12 max-w-3xl mx-auto leading-relaxed transition-all duration-1000 delay-700 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
@@ -72,7 +72,7 @@ export default function Hero() {
             onClick={() => document.getElementById('procesos')?.scrollIntoView({ behavior: 'smooth' })}
             className="group bg-gradient-to-r from-steel-blue to-steel-orange px-8 py-4 rounded-full text-white font-semibold text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300"
           >
-            Conoce Nuestros Procesos
+            Nuestros Procesos
             <span className="ml-2 group-hover:translate-x-1 transition-transform duration-300 inline-block">→</span>
           </button>
           
