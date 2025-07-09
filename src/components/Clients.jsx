@@ -39,7 +39,7 @@ export default function Clients() {
     <section id="clientes" ref={sectionRef} className="py-20 bg-white overflow-hidden">
       <div className="container mx-auto px-4">
         {/* Section Header */}
-        <div className={`text-center mb-16 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+        <div className={`text-center mb-16  ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <h2 className="text-4xl md:text-6xl font-bold mb-6 text-gray-800">
             <span className="gradient-text">Clientes</span> que Confían
           </h2>
@@ -49,7 +49,7 @@ export default function Clients() {
         </div>
 
         {/* Infinite Slider */}
-        <div className={`relative transition-all duration-1000 delay-300 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
+        <div className={`relative  delay-300 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
           {/* First Row - Left to Right */}
           <div className="flex animate-scroll-left mb-8">
             {[...clients, ...clients].map((client, index) => (
@@ -90,7 +90,7 @@ export default function Clients() {
         </div>
 
         {/* Trust Indicators */}
-        <div className={`mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 transition-all duration-1000 delay-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+        <div className={`mt-16 grid grid-cols-1 md:grid-cols-3 gap-8  delay-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <div className="text-center bg-white p-6 rounded-xl shadow-lg">
             <div className="text-3xl font-bold gradient-text mb-2">99.8%</div>
             <p className="text-gray-600">Tasa de Satisfacción</p>

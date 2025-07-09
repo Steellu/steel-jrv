@@ -26,7 +26,7 @@ export default function Contact() {
     <section id="contacto" ref={sectionRef} className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         {/* Section Header */}
-        <div className={`text-center mb-16 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+        <div className={`text-center mb-16`}>
           <h2 className="text-4xl md:text-6xl font-bold mb-6 text-gray-800">
             <span className="gradient-text">Contacto</span>
           </h2>
@@ -37,7 +37,7 @@ export default function Contact() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Contact Information */}
-          <div className={`space-y-8 transition-all duration-1000 delay-300 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>
+          <div className={`space-y-8`}>
             <div className="bg-white p-8 rounded-2xl shadow-lg">
               <h3 className="text-2xl font-bold text-gray-800 mb-6">Información de Contacto</h3>
               
@@ -91,8 +91,8 @@ export default function Contact() {
           </div>
 
           {/* Map */}
-          <div className={`transition-all duration-1000 delay-500 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'}`}>
-            <div className="bg-white p-4 rounded-2xl shadow-lg h-full">
+          <div className={``}>
+            <div className="bg-white p-4 rounded-2xl shadow-lg h-full overflow-hidden">
               <div className="aspect-video rounded-xl overflow-hidden h-full">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.8477865485447!2d-103.39182482577975!3d20.65250948097958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae906a5b7b3b%3A0x1a5a5b1a5a5b1a5a!2sGuadalajara%2C%20Jal.%2C%20Mexico!5e0!3m2!1sen!2sus!4v1634567890123!5m2!1sen!2sus"

@@ -135,7 +135,7 @@ export default function Products() {
     <section id="productos" ref={sectionRef} className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         {/* Section Header */}
-        <div className={`text-center mb-16 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+        <div className={`text-center mb-16  ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <h2 className="text-4xl md:text-6xl font-bold mb-6 text-gray-800">
             Nuestros <span className="gradient-text">Productos</span>
           </h2>
@@ -145,7 +145,7 @@ export default function Products() {
         </div>
 
         {/* Products Slider */}
-        <div className={`relative transition-all duration-1000 delay-300 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+        <div className={`relative  delay-300 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <div 
             className="overflow-x-auto cursor-grab active:cursor-grabbing scrollbar-hide"
             ref={sliderRef}
